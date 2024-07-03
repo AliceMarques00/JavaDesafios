@@ -7,8 +7,7 @@ public class OperadorExercicio7 {
 
         System.out.println("Farei algumas perguntas, responda APENAS com sim ou não");
 
-        // Fazendo as perguntas
-        
+       
         System.out.print("Telefonou para a vítima? ");
         String resp = in.nextLine();
 
@@ -24,7 +23,6 @@ public class OperadorExercicio7 {
         System.out.print("Já trabalhou com a vítima? ");
         String resp4 = in.nextLine();
 
-        // Contagem das respostas positivas
         int respostasPositivas = 0;
 
         if (resp.equalsIgnoreCase("sim")) {
