@@ -1,0 +1,26 @@
+package Basico;
+
+import java.util.Scanner;
+
+public class OperadorExercicio6 {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Bem vindo(a), a minha loja de roupas, Que peça o senhor(a) gostaria de comprar?  ");
+		
+		String roupa= in.nextLine();
+		
+		System.out.println("Ok, agora informe se o modelo é feminino e ou se é masculino");
+		
+		String escolha= in.nextLine();
+		
+		if(escolha.equalsIgnoreCase("feminino")) {
+			System.out.println("Ok, aqui está o seu modelo, F");
+		}
+		else if (escolha.equalsIgnoreCase("Masculino")){
+			System.out.println("Ok, aqui está o seu modelo, M");
+		}
+
+	}
+
+}
